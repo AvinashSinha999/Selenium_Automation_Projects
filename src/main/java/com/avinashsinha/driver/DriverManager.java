@@ -34,6 +34,9 @@ public class DriverManager {
                 EdgeOptions edgeOptions = new EdgeOptions();
                 edgeOptions.addArguments("--inprivate");
                 //edgeOptions.addArguments("--headless=new");
+                edgeOptions.addArguments("--no-sandbox");
+                edgeOptions.addArguments("--disable-gpu");
+                edgeOptions.addArguments("--disable-dev-shm-usage");
                 driverRef = new EdgeDriver(edgeOptions);
                 break;
 
@@ -41,6 +44,9 @@ public class DriverManager {
                 ChromeOptions chromeOptions = new ChromeOptions();
                 chromeOptions.addArguments("--incognito");
                 //chromeOptions.addArguments("--headless=new");
+                chromeOptions.addArguments("--no-sandbox");
+                chromeOptions.addArguments("--disable-gpu");
+                chromeOptions.addArguments("--disable-dev-shm-usage");
                 driverRef = new ChromeDriver(chromeOptions);
                 break;
 

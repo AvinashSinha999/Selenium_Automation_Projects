@@ -1787,3 +1787,350 @@
 2026-04-03 19:15:06 INFO  TestSauceDemo_CheckoutInfoPage - Product now move to the Checkout Page
 2026-04-03 19:15:06 INFO  TestSauceDemo_CheckoutInfoPage - User confirm the order details
 2026-04-03 19:15:07 INFO  TestSauceDemo_CheckoutInfoPage - User successfully purchased the order
+2026-05-04 22:21:28 INFO  TestSauceDemo_ProductPage - User is able to Login the Page
+2026-05-04 22:21:28 INFO  TestSauceDemo_LoginPage - Start with the Valid Credentials for test the Login Page
+2026-05-04 22:21:29 INFO  TestSauceDemo_ProductPage - Open the Product Page and Search for the Product
+2026-05-04 22:21:29 INFO  TestSauceDemo_ProductPage - User successfully able to Click Add To Cart Button on the Product Page
+2026-05-04 22:21:30 INFO  TestSauceDemo_LoginPage - Valid Login Test Successful Completed
+2026-05-04 22:21:32 INFO  TestSauceDemo_CheckoutInfoPage - Start with the Valid Credentials to the Login Page
+2026-05-04 22:21:32 INFO  TestSauceDemo_CartPage - User is able to Login the WebPage
+2026-05-04 22:21:33 INFO  TestSauceDemo_CheckoutInfoPage - Valid Login Successful Completed
+2026-05-04 22:21:33 INFO  TestSauceDemo_CheckoutInfoPage - User successfully able to Click Add To Cart Button on the Product Page
+2026-05-04 22:21:34 INFO  TestSauceDemo_CartPage - Login to the Product Page
+2026-05-04 22:21:34 INFO  TestSauceDemo_CheckoutInfoPage - Product is now move to the Checkout Page
+2026-05-04 22:21:34 INFO  TestSauceDemo_CheckoutInfoPage - User successfully able to Fill the Form
+2026-05-04 22:21:34 INFO  TestSauceDemo_CartPage - Product is now move to the Cart Page
+2026-05-04 22:21:34 INFO  TestSauceDemo_CartPage - Product is present on the Cart Page
+2026-05-04 22:21:37 INFO  TestSauceDemo_LoginPage - Enter the Username and click on Login Button
+2026-05-04 22:21:37 INFO  TestSauceDemo_ProductPage - User is now Login the Page
+2026-05-04 22:21:39 INFO  TestSauceDemo_ProductPage - User click the filter Low to High
+2026-05-04 22:21:39 INFO  TestSauceDemo_LoginPage - Invalid Login with Username only Test Completed
+2026-05-04 22:21:39 INFO  TestSauceDemo_ProductPage - Products are successfully able to sort the filter Low to High
+2026-05-04 22:21:41 INFO  TestSauceDemo_CartPage - User is able to Login Valid Credentials
+2026-05-04 22:21:42 INFO  TestSauceDemo_CheckoutInfoPage - Start login with Valid Credentials to the Login Page
+2026-05-04 22:21:43 INFO  TestSauceDemo_CartPage - All products are listed on the Product Page
+2026-05-04 22:21:43 INFO  TestSauceDemo_CartPage - Product now move to the Cart Page
+2026-05-04 22:21:43 INFO  TestSauceDemo_CartPage - Product is now move to the Checkout Page
+2026-05-04 22:21:45 INFO  TestSauceDemo_CheckoutInfoPage - User Login Successful Completed
+2026-05-04 22:21:45 INFO  TestSauceDemo_CheckoutInfoPage - User add the Product on the Cart
+2026-05-04 22:21:45 INFO  TestSauceDemo_CheckoutInfoPage - Product is ready for the Checkout
+2026-05-04 22:21:46 INFO  TestSauceDemo_CheckoutInfoPage - User see the Error message without fill the form
+2026-05-04 22:21:46 INFO  TestSauceDemo_LoginPage - Enter the Password and click on Login Button
+2026-05-04 22:21:47 INFO  TestSauceDemo_ProductPage - User now Login to the Page
+2026-05-04 22:21:47 INFO  TestSauceDemo_LoginPage - Invalid Login with Password only Test Completed
+2026-05-04 22:21:48 INFO  TestSauceDemo_ProductPage - User click on the Product to see the Details
+2026-05-04 22:21:48 INFO  TestSauceDemo_ProductPage - User now able successfully able to see the details of the Product
+2026-05-04 22:21:50 INFO  TestSauceDemo_CartPage - User Login with Valid Credentials
+2026-05-04 22:21:51 INFO  TestSauceDemo_CheckoutInfoPage - User login to Valid Credentials
+2026-05-04 22:21:52 INFO  TestSauceDemo_CartPage - All products are shown on the Product Page
+2026-05-04 22:21:52 INFO  TestSauceDemo_CheckoutInfoPage - User logged in Successful
+2026-05-04 22:21:52 INFO  TestSauceDemo_CartPage - Selected Product now move to the Cart
+2026-05-04 22:21:52 INFO  TestSauceDemo_CartPage - User can move to the Product Page Again
+2026-05-04 22:21:52 INFO  TestSauceDemo_CheckoutInfoPage - User Click to the Add To Cart Button on the Product Page
+2026-05-04 22:21:52 INFO  TestSauceDemo_CheckoutInfoPage - User move the product to the Checkout Page
+2026-05-04 22:21:53 INFO  TestSauceDemo_CheckoutInfoPage - User see the Confirmation Details of Purchase
+2026-05-04 22:21:55 INFO  TestSauceDemo_LoginPage - Start with the Invalid Credentials for test the Login Page
+2026-05-04 22:21:55 INFO  TestSauceDemo_ProductPage - User use the Valid Credentials for Login to the Page
+2026-05-04 22:21:56 INFO  TestSauceDemo_LoginPage - Invalid Login Test Successful Completed
+2026-05-04 22:21:56 INFO  TestSauceDemo_ProductPage - User navigate to the Product to see the Details
+2026-05-04 22:21:57 INFO  TestSauceDemo_ProductPage - User successfully navigates to the Product Page
+2026-05-04 22:21:58 INFO  TestSauceDemo_CheckoutInfoPage - User login with Valid Credentials to the Login Page
+2026-05-04 22:21:59 INFO  TestSauceDemo_CartPage - User can Login with Valid Credentials
+2026-05-04 22:22:00 INFO  TestSauceDemo_CheckoutInfoPage - Successful logged in with Valid Credentials Completed
+2026-05-04 22:22:00 INFO  TestSauceDemo_CheckoutInfoPage - Add the Product on the Cart page
+2026-05-04 22:22:00 INFO  TestSauceDemo_CheckoutInfoPage - User try to cancel the order
+2026-05-04 22:22:00 INFO  TestSauceDemo_CheckoutInfoPage - Successfully cancel the Order
+2026-05-04 22:22:00 INFO  TestSauceDemo_CartPage - All the products are shown on the Product Page
+2026-05-04 22:22:01 INFO  TestSauceDemo_CartPage - Selected Product, remove from the Cart Page
+2026-05-04 22:22:01 INFO  TestSauceDemo_CartPage - User successfully remove the Product from Cart Page
+2026-05-04 22:22:03 INFO  TestSauceDemo_LoginPage - Start with the Blank Credentials for test the Login Page
+2026-05-04 22:22:04 INFO  TestSauceDemo_ProductPage - User use Valid Credentials for Login to the Page
+2026-05-04 22:22:04 INFO  TestSauceDemo_LoginPage - Test with Blank Credentials Completed
+2026-05-04 22:22:05 INFO  TestSauceDemo_ProductPage - Open the Product Page and Search the Product
+2026-05-04 22:22:05 INFO  TestSauceDemo_ProductPage - User successfully click on the Remove Button
+2026-05-04 22:22:07 INFO  TestSauceDemo_CartPage - User can be able to Login with Valid Credentials
+2026-05-04 22:22:08 INFO  TestSauceDemo_CheckoutInfoPage - Start with Valid Credentials to the Login Page
+2026-05-04 22:22:08 INFO  TestSauceDemo_CartPage - All the products are listed on the Product Page
+2026-05-04 22:22:08 INFO  TestSauceDemo_CartPage - Empty state of the Cart Page
+2026-05-04 22:22:08 INFO  TestSauceDemo_CartPage - Cart Page is fully Empty
+2026-05-04 22:22:09 INFO  TestSauceDemo_CheckoutInfoPage - Logged Successful Completed
+2026-05-04 22:22:09 INFO  TestSauceDemo_CheckoutInfoPage - User able to Click on Add To Cart Button on the Product Page
+2026-05-04 22:22:09 INFO  TestSauceDemo_CheckoutInfoPage - Product now move to the Checkout Page
+2026-05-04 22:22:10 INFO  TestSauceDemo_CheckoutInfoPage - User confirm the order details
+2026-05-04 22:22:10 INFO  TestSauceDemo_CheckoutInfoPage - User successfully purchased the order
+2026-05-04 22:25:04 INFO  TestAppliToolsPage - Starting the TestCase of AppliTools Page
+2026-05-04 22:25:12 INFO  TestAppliToolsPage - Finishing the TestCase of AppliTools Page
+2026-05-04 22:35:11 INFO  TestAppliToolsPage - Starting the TestCase of AppliTools Page
+2026-05-04 22:35:18 INFO  TestAppliToolsPage - Finishing the TestCase of AppliTools Page
+2026-05-04 22:42:45 INFO  TestAppliToolsPage - Starting the TestCase of AppliTools Page
+2026-05-04 22:42:52 INFO  TestAppliToolsPage - Finishing the TestCase of AppliTools Page
+2026-05-04 22:43:12 INFO  TestAppliToolsPage - Starting the TestCase of AppliTools Page
+2026-05-04 22:43:19 INFO  TestAppliToolsPage - Finishing the TestCase of AppliTools Page
+2026-05-04 23:02:00 INFO  TestAppliToolsPage - Starting the TestCase of AppliTools Page
+2026-05-04 23:02:07 INFO  TestAppliToolsPage - Finishing the TestCase of AppliTools Page
+2026-05-04 23:02:15 INFO  TestAppliToolsPage - Starting the TestCase of AppliTools Page
+2026-05-04 23:02:22 INFO  TestAppliToolsPage - Finishing the TestCase of AppliTools Page
+2026-05-04 23:04:31 INFO  TestAppliToolsPage - Starting the TestCase of AppliTools Page
+2026-05-04 23:04:39 INFO  TestAppliToolsPage - Finishing the TestCase of AppliTools Page
+2026-05-04 23:05:36 INFO  TestAppliToolsPage - Starting the TestCase of AppliTools Page
+2026-05-04 23:05:44 INFO  TestAppliToolsPage - Finishing the TestCase of AppliTools Page
+2026-05-04 23:08:13 INFO  TestAppliToolsPage - Starting the TestCase of AppliTools Page
+2026-05-04 23:08:20 INFO  TestAppliToolsPage - Finishing the TestCase of AppliTools Page
+2026-05-04 23:10:36 INFO  TestAppliToolsPage - Starting the TestCase of AppliTools Page
+2026-05-04 23:10:43 INFO  TestAppliToolsPage - Finishing the TestCase of AppliTools Page
+2026-05-04 23:11:13 INFO  TestPracticeTestAutomationPage - Start the Invalid Username Test
+2026-05-04 23:11:13 INFO  TestPracticeTestAutomationPage - Start the Valid Login Test
+2026-05-04 23:11:16 INFO  TestPracticeTestAutomationPage - Invalid Username Test Successful Completed
+2026-05-04 23:11:17 INFO  TestPracticeTestAutomationPage - Dashboard Page is Opened
+2026-05-04 23:11:17 INFO  TestPracticeTestAutomationPage - Start the Invalid Password Test
+2026-05-04 23:11:18 INFO  TestPracticeTestAutomationPage - Valid Login Test Successful Completed
+2026-05-04 23:11:20 INFO  TestPracticeTestAutomationPage - Start the Logout Test
+2026-05-04 23:11:21 INFO  TestPracticeTestAutomationPage - Invalid Password Test Successful Completed
+2026-05-04 23:11:22 INFO  TestPracticeTestAutomationPage - Start the Intentional Failure Test for Screenshot Verification
+2026-05-04 23:11:24 INFO  TestPracticeTestAutomationPage - Trying to Clicking the Logout Button on Dashboard Page
+2026-05-04 23:11:25 INFO  TestPracticeTestAutomationPage - Logout Test Successful Completed
+2026-05-04 23:11:26 INFO  TestPracticeTestAutomationPage - Take the Screenshot
+2026-05-04 23:11:27 INFO  TestPracticeTestAutomationPage - Start the Intentional Failure Test for Screenshot Verification
+2026-05-04 23:11:30 INFO  TestPracticeTestAutomationPage - Take the Screenshot
+2026-05-04 23:11:32 INFO  TestPracticeTestAutomationPage - Start the Intentional Failure Test for Screenshot Verification
+2026-05-04 23:11:35 INFO  TestPracticeTestAutomationPage - Take the Screenshot
+2026-05-04 23:11:37 INFO  TestPracticeTestAutomationPage - Start the Intentional Failure Test for Screenshot Verification
+2026-05-04 23:11:40 INFO  TestPracticeTestAutomationPage - Take the Screenshot
+2026-05-04 23:12:42 INFO  TestFlipkartPage - Starting the TestCase of Flipkart Page
+2026-05-04 23:12:47 INFO  TestFlipkartPage - Search the Product on Flipkart Search Page
+2026-05-04 23:12:52 INFO  TestFlipkartPage - Open the Product on New Flipkart Product Page
+2026-05-04 23:12:58 INFO  TestFlipkartPage - Add the Product on Flipkart Cart Page
+2026-05-04 23:13:01 INFO  TestFlipkartPage - Starting the TestCase of Flipkart Page
+2026-05-04 23:13:07 INFO  TestFlipkartPage - Search the Product on Flipkart Search Page
+2026-05-04 23:13:12 INFO  TestFlipkartPage - Open the Product on New Flipkart Product Page
+2026-05-04 23:13:17 INFO  TestFlipkartPage - Add the Product on Flipkart Cart Page
+2026-05-04 23:13:20 INFO  TestFlipkartPage - Starting the TestCase of Flipkart Page
+2026-05-04 23:13:26 INFO  TestFlipkartPage - Search the Product on Flipkart Search Page
+2026-05-04 23:13:31 INFO  TestFlipkartPage - Open the Product on New Flipkart Product Page
+2026-05-04 23:13:37 INFO  TestFlipkartPage - Add the Product on Flipkart Cart Page
+2026-05-04 23:13:40 INFO  TestFlipkartPage - Starting the TestCase of Flipkart Page
+2026-05-04 23:13:45 INFO  TestFlipkartPage - Search the Product on Flipkart Search Page
+2026-05-04 23:13:50 INFO  TestFlipkartPage - Open the Product on New Flipkart Product Page
+2026-05-04 23:14:07 INFO  TestFlipkartPage - Starting the TestCase of Flipkart Page
+2026-05-04 23:14:11 INFO  TestFlipkartPage - Search the Product on Flipkart Search Page
+2026-05-04 23:14:16 INFO  TestFlipkartPage - Open the Product on New Flipkart Product Page
+2026-05-04 23:14:19 INFO  TestFlipkartPage - Add the Product on Flipkart Cart Page
+2026-05-04 23:14:24 INFO  TestFlipkartPage - Proceed to the Flipkart CheckOut Page
+2026-05-04 23:14:25 INFO  TestFlipkartPage - Finishing the TestCase of Flipkart Page
+2026-05-04 23:14:58 INFO  TestFlipkartPage - Starting the TestCase of Flipkart Page
+2026-05-04 23:15:02 INFO  TestFlipkartPage - Search the Product on Flipkart Search Page
+2026-05-04 23:15:09 INFO  TestFlipkartPage - Open the Product on New Flipkart Product Page
+2026-05-04 23:15:12 INFO  TestFlipkartPage - Add the Product on Flipkart Cart Page
+2026-05-04 23:15:18 INFO  TestFlipkartPage - Proceed to the Flipkart CheckOut Page
+2026-05-04 23:15:19 INFO  TestFlipkartPage - Finishing the TestCase of Flipkart Page
+2026-05-04 23:15:56 INFO  TestSauceDemo_ProductPage - User is able to Login the Page
+2026-05-04 23:15:56 INFO  TestSauceDemo_LoginPage - Start with the Valid Credentials for test the Login Page
+2026-05-04 23:15:58 INFO  TestSauceDemo_LoginPage - Valid Login Test Successful Completed
+2026-05-04 23:15:58 INFO  TestSauceDemo_ProductPage - Open the Product Page and Search for the Product
+2026-05-04 23:15:58 INFO  TestSauceDemo_ProductPage - User successfully able to Click Add To Cart Button on the Product Page
+2026-05-04 23:16:02 INFO  TestSauceDemo_CheckoutInfoPage - Start with the Valid Credentials to the Login Page
+2026-05-04 23:16:02 INFO  TestSauceDemo_CartPage - User is able to Login the WebPage
+2026-05-04 23:16:04 INFO  TestSauceDemo_CartPage - Login to the Product Page
+2026-05-04 23:16:04 INFO  TestSauceDemo_CartPage - Product is now move to the Cart Page
+2026-05-04 23:16:04 INFO  TestSauceDemo_CartPage - Product is present on the Cart Page
+2026-05-04 23:16:32 INFO  TestSauceDemo_CheckoutInfoPage - Valid Login Successful Completed
+2026-05-04 23:16:33 INFO  TestSauceDemo_CheckoutInfoPage - User successfully able to Click Add To Cart Button on the Product Page
+2026-05-04 23:16:33 INFO  TestSauceDemo_CheckoutInfoPage - Product is now move to the Checkout Page
+2026-05-04 23:16:34 INFO  TestSauceDemo_LoginPage - Enter the Username and click on Login Button
+2026-05-04 23:16:34 INFO  TestSauceDemo_CheckoutInfoPage - User successfully able to Fill the Form
+2026-05-04 23:16:35 INFO  TestSauceDemo_LoginPage - Invalid Login with Username only Test Completed
+2026-05-04 23:16:36 INFO  TestSauceDemo_ProductPage - User is now Login the Page
+2026-05-04 23:16:37 INFO  TestSauceDemo_CartPage - User is able to Login Valid Credentials
+2026-05-04 23:16:38 INFO  TestSauceDemo_CartPage - All products are listed on the Product Page
+2026-05-04 23:16:38 INFO  TestSauceDemo_CartPage - Product now move to the Cart Page
+2026-05-04 23:16:38 INFO  TestSauceDemo_ProductPage - User click the filter Low to High
+2026-05-04 23:16:39 INFO  TestSauceDemo_CartPage - Product is now move to the Checkout Page
+2026-05-04 23:16:39 INFO  TestSauceDemo_ProductPage - Products are successfully able to sort the filter Low to High
+2026-05-04 23:16:42 INFO  TestSauceDemo_CheckoutInfoPage - Start login with Valid Credentials to the Login Page
+2026-05-04 23:16:42 INFO  TestSauceDemo_LoginPage - Enter the Password and click on Login Button
+2026-05-04 23:16:43 INFO  TestSauceDemo_CheckoutInfoPage - User Login Successful Completed
+2026-05-04 23:16:43 INFO  TestSauceDemo_CheckoutInfoPage - User add the Product on the Cart
+2026-05-04 23:16:43 INFO  TestSauceDemo_CheckoutInfoPage - Product is ready for the Checkout
+2026-05-04 23:16:43 INFO  TestSauceDemo_CheckoutInfoPage - User see the Error message without fill the form
+2026-05-04 23:16:43 INFO  TestSauceDemo_LoginPage - Invalid Login with Password only Test Completed
+2026-05-04 23:16:45 INFO  TestSauceDemo_ProductPage - User now Login to the Page
+2026-05-04 23:16:45 INFO  TestSauceDemo_CartPage - User Login with Valid Credentials
+2026-05-04 23:16:47 INFO  TestSauceDemo_ProductPage - User click on the Product to see the Details
+2026-05-04 23:16:47 INFO  TestSauceDemo_ProductPage - User now able successfully able to see the details of the Product
+2026-05-04 23:16:47 INFO  TestSauceDemo_CartPage - All products are shown on the Product Page
+2026-05-04 23:16:47 INFO  TestSauceDemo_CartPage - Selected Product now move to the Cart
+2026-05-04 23:16:48 INFO  TestSauceDemo_CartPage - User can move to the Product Page Again
+2026-05-04 23:16:48 INFO  TestSauceDemo_CheckoutInfoPage - User login to Valid Credentials
+2026-05-04 23:16:49 INFO  TestSauceDemo_CheckoutInfoPage - User logged in Successful
+2026-05-04 23:16:49 INFO  TestSauceDemo_LoginPage - Start with the Invalid Credentials for test the Login Page
+2026-05-04 23:16:50 INFO  TestSauceDemo_CheckoutInfoPage - User Click to the Add To Cart Button on the Product Page
+2026-05-04 23:16:50 INFO  TestSauceDemo_CheckoutInfoPage - User move the product to the Checkout Page
+2026-05-04 23:16:50 INFO  TestSauceDemo_CheckoutInfoPage - User see the Confirmation Details of Purchase
+2026-05-04 23:16:51 INFO  TestSauceDemo_LoginPage - Invalid Login Test Successful Completed
+2026-05-04 23:16:53 INFO  TestSauceDemo_ProductPage - User use the Valid Credentials for Login to the Page
+2026-05-04 23:16:56 INFO  TestSauceDemo_ProductPage - User navigate to the Product to see the Details
+2026-05-04 23:16:57 INFO  TestSauceDemo_CartPage - User can Login with Valid Credentials
+2026-05-04 23:16:57 INFO  TestSauceDemo_ProductPage - User successfully navigates to the Product Page
+2026-05-04 23:16:58 INFO  TestSauceDemo_CartPage - All the products are shown on the Product Page
+2026-05-04 23:16:59 INFO  TestSauceDemo_CartPage - Selected Product, remove from the Cart Page
+2026-05-04 23:16:59 INFO  TestSauceDemo_CartPage - User successfully remove the Product from Cart Page
+2026-05-04 23:16:59 INFO  TestSauceDemo_CheckoutInfoPage - User login with Valid Credentials to the Login Page
+2026-05-04 23:17:01 INFO  TestSauceDemo_CheckoutInfoPage - Successful logged in with Valid Credentials Completed
+2026-05-04 23:17:01 INFO  TestSauceDemo_CheckoutInfoPage - Add the Product on the Cart page
+2026-05-04 23:17:01 INFO  TestSauceDemo_LoginPage - Start with the Blank Credentials for test the Login Page
+2026-05-04 23:17:01 INFO  TestSauceDemo_CheckoutInfoPage - User try to cancel the order
+2026-05-04 23:17:02 INFO  TestSauceDemo_CheckoutInfoPage - Successfully cancel the Order
+2026-05-04 23:17:02 INFO  TestSauceDemo_LoginPage - Test with Blank Credentials Completed
+2026-05-04 23:17:06 INFO  TestSauceDemo_CartPage - User can be able to Login with Valid Credentials
+2026-05-04 23:17:06 INFO  TestSauceDemo_ProductPage - User use Valid Credentials for Login to the Page
+2026-05-04 23:17:08 INFO  TestSauceDemo_CartPage - All the products are listed on the Product Page
+2026-05-04 23:17:09 INFO  TestSauceDemo_CartPage - Empty state of the Cart Page
+2026-05-04 23:17:09 INFO  TestSauceDemo_CartPage - Cart Page is fully Empty
+2026-05-04 23:17:10 INFO  TestSauceDemo_ProductPage - Open the Product Page and Search the Product
+2026-05-04 23:17:10 INFO  TestSauceDemo_ProductPage - User successfully click on the Remove Button
+2026-05-04 23:17:13 INFO  TestSauceDemo_CheckoutInfoPage - Start with Valid Credentials to the Login Page
+2026-05-04 23:17:14 INFO  TestSauceDemo_CheckoutInfoPage - Logged Successful Completed
+2026-05-04 23:17:14 INFO  TestSauceDemo_CheckoutInfoPage - User able to Click on Add To Cart Button on the Product Page
+2026-05-04 23:17:15 INFO  TestSauceDemo_CheckoutInfoPage - Product now move to the Checkout Page
+2026-05-04 23:17:15 INFO  TestSauceDemo_CheckoutInfoPage - User confirm the order details
+2026-05-04 23:17:15 INFO  TestSauceDemo_CheckoutInfoPage - User successfully purchased the order
+2026-05-04 23:21:54 INFO  TestSauceDemo_LoginPage - Start with the Valid Credentials for test the Login Page
+2026-05-04 23:21:54 INFO  TestSauceDemo_ProductPage - User is able to Login the Page
+2026-05-04 23:21:56 INFO  TestSauceDemo_ProductPage - Open the Product Page and Search for the Product
+2026-05-04 23:21:56 INFO  TestSauceDemo_LoginPage - Valid Login Test Successful Completed
+2026-05-04 23:21:56 INFO  TestSauceDemo_ProductPage - User successfully able to Click Add To Cart Button on the Product Page
+2026-05-04 23:21:59 INFO  TestSauceDemo_CheckoutInfoPage - Start with the Valid Credentials to the Login Page
+2026-05-04 23:21:59 INFO  TestSauceDemo_CartPage - User is able to Login the WebPage
+2026-05-04 23:22:00 INFO  TestSauceDemo_CartPage - Login to the Product Page
+2026-05-04 23:22:01 INFO  TestSauceDemo_CartPage - Product is now move to the Cart Page
+2026-05-04 23:22:01 INFO  TestSauceDemo_CartPage - Product is present on the Cart Page
+2026-05-04 23:22:01 INFO  TestSauceDemo_CheckoutInfoPage - Valid Login Successful Completed
+2026-05-04 23:22:02 INFO  TestSauceDemo_CheckoutInfoPage - User successfully able to Click Add To Cart Button on the Product Page
+2026-05-04 23:22:02 INFO  TestSauceDemo_CheckoutInfoPage - Product is now move to the Checkout Page
+2026-05-04 23:22:03 INFO  TestSauceDemo_CheckoutInfoPage - User successfully able to Fill the Form
+2026-05-04 23:22:03 INFO  TestSauceDemo_LoginPage - Enter the Username and click on Login Button
+2026-05-04 23:22:05 INFO  TestSauceDemo_LoginPage - Invalid Login with Username only Test Completed
+2026-05-04 23:22:06 INFO  TestSauceDemo_ProductPage - User is now Login the Page
+2026-05-04 23:22:09 INFO  TestSauceDemo_CartPage - User is able to Login Valid Credentials
+2026-05-04 23:22:10 INFO  TestSauceDemo_ProductPage - User click the filter Low to High
+2026-05-04 23:22:11 INFO  TestSauceDemo_ProductPage - Products are successfully able to sort the filter Low to High
+2026-05-04 23:22:12 INFO  TestSauceDemo_CartPage - All products are listed on the Product Page
+2026-05-04 23:22:12 INFO  TestSauceDemo_CartPage - Product now move to the Cart Page
+2026-05-04 23:22:12 INFO  TestSauceDemo_CartPage - Product is now move to the Checkout Page
+2026-05-04 23:22:12 INFO  TestSauceDemo_CheckoutInfoPage - Start login with Valid Credentials to the Login Page
+2026-05-04 23:22:14 INFO  TestSauceDemo_CheckoutInfoPage - User Login Successful Completed
+2026-05-04 23:22:14 INFO  TestSauceDemo_LoginPage - Enter the Password and click on Login Button
+2026-05-04 23:22:14 INFO  TestSauceDemo_CheckoutInfoPage - User add the Product on the Cart
+2026-05-04 23:22:14 INFO  TestSauceDemo_CheckoutInfoPage - Product is ready for the Checkout
+2026-05-04 23:22:15 INFO  TestSauceDemo_CheckoutInfoPage - User see the Error message without fill the form
+2026-05-04 23:22:16 INFO  TestSauceDemo_LoginPage - Invalid Login with Password only Test Completed
+2026-05-04 23:22:17 INFO  TestSauceDemo_ProductPage - User now Login to the Page
+2026-05-04 23:22:17 INFO  TestSauceDemo_CartPage - User Login with Valid Credentials
+2026-05-04 23:22:18 INFO  TestSauceDemo_ProductPage - User click on the Product to see the Details
+2026-05-04 23:22:18 INFO  TestSauceDemo_ProductPage - User now able successfully able to see the details of the Product
+2026-05-04 23:22:18 INFO  TestSauceDemo_CartPage - All products are shown on the Product Page
+2026-05-04 23:22:19 INFO  TestSauceDemo_CartPage - Selected Product now move to the Cart
+2026-05-04 23:22:19 INFO  TestSauceDemo_CartPage - User can move to the Product Page Again
+2026-05-04 23:22:20 INFO  TestSauceDemo_CheckoutInfoPage - User login to Valid Credentials
+2026-05-04 23:22:21 INFO  TestSauceDemo_LoginPage - Start with the Invalid Credentials for test the Login Page
+2026-05-04 23:22:21 INFO  TestSauceDemo_CheckoutInfoPage - User logged in Successful
+2026-05-04 23:22:22 INFO  TestSauceDemo_LoginPage - Invalid Login Test Successful Completed
+2026-05-04 23:22:27 INFO  TestSauceDemo_CheckoutInfoPage - User Click to the Add To Cart Button on the Product Page
+2026-05-04 23:22:27 INFO  TestSauceDemo_CheckoutInfoPage - User move the product to the Checkout Page
+2026-05-04 23:22:28 INFO  TestSauceDemo_CheckoutInfoPage - User see the Confirmation Details of Purchase
+2026-05-04 23:22:29 INFO  TestSauceDemo_ProductPage - User use the Valid Credentials for Login to the Page
+2026-05-04 23:22:30 INFO  TestSauceDemo_ProductPage - User navigate to the Product to see the Details
+2026-05-04 23:22:30 INFO  TestSauceDemo_CartPage - User can Login with Valid Credentials
+2026-05-04 23:22:30 INFO  TestSauceDemo_ProductPage - User successfully navigates to the Product Page
+2026-05-04 23:22:32 INFO  TestSauceDemo_CartPage - All the products are shown on the Product Page
+2026-05-04 23:22:32 INFO  TestSauceDemo_CartPage - Selected Product, remove from the Cart Page
+2026-05-04 23:22:32 INFO  TestSauceDemo_CartPage - User successfully remove the Product from Cart Page
+2026-05-04 23:22:32 INFO  TestSauceDemo_CheckoutInfoPage - User login with Valid Credentials to the Login Page
+2026-05-04 23:22:33 INFO  TestSauceDemo_CheckoutInfoPage - Successful logged in with Valid Credentials Completed
+2026-05-04 23:22:34 INFO  TestSauceDemo_CheckoutInfoPage - Add the Product on the Cart page
+2026-05-04 23:22:34 INFO  TestSauceDemo_CheckoutInfoPage - User try to cancel the order
+2026-05-04 23:22:34 INFO  TestSauceDemo_CheckoutInfoPage - Successfully cancel the Order
+2026-05-04 23:22:34 INFO  TestSauceDemo_LoginPage - Start with the Blank Credentials for test the Login Page
+2026-05-04 23:22:35 INFO  TestSauceDemo_LoginPage - Test with Blank Credentials Completed
+2026-05-04 23:22:37 INFO  TestSauceDemo_ProductPage - User use Valid Credentials for Login to the Page
+2026-05-04 23:22:38 INFO  TestSauceDemo_CartPage - User can be able to Login with Valid Credentials
+2026-05-04 23:22:40 INFO  TestSauceDemo_ProductPage - Open the Product Page and Search the Product
+2026-05-04 23:22:40 INFO  TestSauceDemo_ProductPage - User successfully click on the Remove Button
+2026-05-04 23:22:40 INFO  TestSauceDemo_CartPage - All the products are listed on the Product Page
+2026-05-04 23:22:41 INFO  TestSauceDemo_CartPage - Empty state of the Cart Page
+2026-05-04 23:22:41 INFO  TestSauceDemo_CartPage - Cart Page is fully Empty
+2026-05-04 23:22:41 INFO  TestSauceDemo_CheckoutInfoPage - Start with Valid Credentials to the Login Page
+2026-05-04 23:22:42 INFO  TestSauceDemo_CheckoutInfoPage - Logged Successful Completed
+2026-05-04 23:22:43 INFO  TestSauceDemo_CheckoutInfoPage - User able to Click on Add To Cart Button on the Product Page
+2026-05-04 23:22:43 INFO  TestSauceDemo_CheckoutInfoPage - Product now move to the Checkout Page
+2026-05-04 23:22:43 INFO  TestSauceDemo_CheckoutInfoPage - User confirm the order details
+2026-05-04 23:22:43 INFO  TestSauceDemo_CheckoutInfoPage - User successfully purchased the order
+2026-05-04 23:26:49 INFO  TestAppliToolsPage - Starting the TestCase of AppliTools Page
+2026-05-04 23:26:57 INFO  TestAppliToolsPage - Finishing the TestCase of AppliTools Page
+2026-05-04 23:28:55 INFO  TestSauceDemoPage_DDT_Excel - Start the Test Case of LoginPage of Sauce Demo from Excel Data
+2026-05-04 23:28:56 INFO  TestSauceDemoPage_DDT_Excel - End the Test Case of Sauce LoginPage of Demo from Excel Data
+2026-05-04 23:28:58 INFO  TestSauceDemoPage_DDT_Excel - Start the Test Case of LoginPage of Sauce Demo from Excel Data
+2026-05-04 23:28:59 INFO  TestSauceDemoPage_DDT_Excel - End the Test Case of Sauce LoginPage of Demo from Excel Data
+2026-05-04 23:29:01 INFO  TestSauceDemoPage_DDT_Excel - Start the Test Case of LoginPage of Sauce Demo from Excel Data
+2026-05-04 23:29:01 INFO  TestSauceDemoPage_DDT_Excel - End the Test Case of Sauce LoginPage of Demo from Excel Data
+2026-05-04 23:29:03 INFO  TestSauceDemoPage_DDT_Excel - Start the Test Case of LoginPage of Sauce Demo from Excel Data
+2026-05-04 23:29:09 INFO  TestSauceDemoPage_DDT_Excel - End the Test Case of Sauce LoginPage of Demo from Excel Data
+2026-05-04 23:29:11 INFO  TestSauceDemoPage_DDT_Excel - Start the Test Case of LoginPage of Sauce Demo from Excel Data
+2026-05-04 23:29:12 INFO  TestSauceDemoPage_DDT_Excel - End the Test Case of Sauce LoginPage of Demo from Excel Data
+2026-05-04 23:29:13 INFO  TestSauceDemoPage_DDT_Excel - Start the Test Case of LoginPage of Sauce Demo from Excel Data
+2026-05-04 23:29:14 INFO  TestSauceDemoPage_DDT_Excel - End the Test Case of Sauce LoginPage of Demo from Excel Data
+2026-05-04 23:29:37 INFO  TestSauceDemoPage_DDT_JSON - Start the Test Case of LoginPage of Sauce Demo from JSON Data
+2026-05-04 23:29:38 INFO  TestSauceDemoPage_DDT_JSON - End the Test Case of Sauce LoginPage of Demo from JSON Data
+2026-05-04 23:29:39 INFO  TestSauceDemoPage_DDT_JSON - Start the Test Case of LoginPage of Sauce Demo from JSON Data
+2026-05-04 23:29:41 INFO  TestSauceDemoPage_DDT_JSON - End the Test Case of Sauce LoginPage of Demo from JSON Data
+2026-05-04 23:29:42 INFO  TestSauceDemoPage_DDT_JSON - Start the Test Case of LoginPage of Sauce Demo from JSON Data
+2026-05-04 23:29:43 INFO  TestSauceDemoPage_DDT_JSON - End the Test Case of Sauce LoginPage of Demo from JSON Data
+2026-05-04 23:29:44 INFO  TestSauceDemoPage_DDT_JSON - Start the Test Case of LoginPage of Sauce Demo from JSON Data
+2026-05-04 23:29:50 INFO  TestSauceDemoPage_DDT_JSON - End the Test Case of Sauce LoginPage of Demo from JSON Data
+2026-05-04 23:29:51 INFO  TestSauceDemoPage_DDT_JSON - Start the Test Case of LoginPage of Sauce Demo from JSON Data
+2026-05-04 23:29:52 INFO  TestSauceDemoPage_DDT_JSON - End the Test Case of Sauce LoginPage of Demo from JSON Data
+2026-05-04 23:29:54 INFO  TestSauceDemoPage_DDT_JSON - Start the Test Case of LoginPage of Sauce Demo from JSON Data
+2026-05-04 23:29:55 INFO  TestSauceDemoPage_DDT_JSON - End the Test Case of Sauce LoginPage of Demo from JSON Data
+2026-05-04 23:30:19 INFO  TestSauceDemoPage_E2E - Starting the TestCase of Sauce Demo Page
+2026-05-04 23:30:21 INFO  TestSauceDemoPage_E2E - Open the homepage and Search the Product
+2026-05-04 23:30:21 INFO  TestSauceDemoPage_E2E - Click to add the product and go the Cart Page
+2026-05-04 23:30:21 INFO  TestSauceDemoPage_E2E - Go for Checkout from the Cart Page
+2026-05-04 23:30:21 INFO  TestSauceDemoPage_E2E - Fill the Form and Confirm the Order
+2026-05-04 23:30:22 INFO  TestSauceDemoPage_E2E - Check the Whole Order Details
+2026-05-04 23:30:22 INFO  TestSauceDemoPage_E2E - Order Placed and Dispatched successfully
+2026-05-04 23:30:22 INFO  TestSauceDemoPage_E2E - Back to Products Page
+2026-05-04 23:30:22 INFO  TestSauceDemoPage_E2E - Back to Login Page
+2026-05-04 23:46:24 INFO  TestAppliToolsPage - Starting the TestCase of AppliTools Page
+2026-05-04 23:46:32 INFO  TestAppliToolsPage - Finishing the TestCase of AppliTools Page
+2026-05-04 23:48:22 INFO  TestAppliToolsPage - Starting the TestCase of AppliTools Page
+2026-05-04 23:48:29 INFO  TestAppliToolsPage - Finishing the TestCase of AppliTools Page
+2026-05-04 23:50:41 INFO  TestSauceDemoPage_E2E - Starting the TestCase of Sauce Demo Page
+2026-05-04 23:50:42 INFO  TestSauceDemoPage_E2E - Open the homepage and Search the Product
+2026-05-04 23:50:42 INFO  TestSauceDemoPage_E2E - Click to add the product and go the Cart Page
+2026-05-04 23:50:42 INFO  TestSauceDemoPage_E2E - Go for Checkout from the Cart Page
+2026-05-04 23:50:43 INFO  TestSauceDemoPage_E2E - Fill the Form and Confirm the Order
+2026-05-04 23:50:43 INFO  TestSauceDemoPage_E2E - Check the Whole Order Details
+2026-05-04 23:50:43 INFO  TestSauceDemoPage_E2E - Order Placed and Dispatched successfully
+2026-05-04 23:50:43 INFO  TestSauceDemoPage_E2E - Back to Products Page
+2026-05-04 23:50:44 INFO  TestSauceDemoPage_E2E - Back to Login Page
+2026-05-05 00:03:39 INFO  TestFlipkartPage - Starting the TestCase of Flipkart Page
+2026-05-05 00:03:45 INFO  TestFlipkartPage - Search the Product on Flipkart Search Page
+2026-05-05 00:03:50 INFO  TestFlipkartPage - Open the Product on New Flipkart Product Page
+2026-05-05 00:03:54 INFO  TestFlipkartPage - Starting the TestCase of Flipkart Page
+2026-05-05 00:03:59 INFO  TestFlipkartPage - Search the Product on Flipkart Search Page
+2026-05-05 00:04:04 INFO  TestFlipkartPage - Open the Product on New Flipkart Product Page
+2026-05-05 00:04:10 INFO  TestFlipkartPage - Add the Product on Flipkart Cart Page
+2026-05-05 00:04:13 INFO  TestFlipkartPage - Starting the TestCase of Flipkart Page
+2026-05-05 00:04:17 INFO  TestFlipkartPage - Search the Product on Flipkart Search Page
+2026-05-05 00:04:23 INFO  TestFlipkartPage - Open the Product on New Flipkart Product Page
+2026-05-05 00:04:28 INFO  TestFlipkartPage - Add the Product on Flipkart Cart Page
+2026-05-05 00:04:32 INFO  TestFlipkartPage - Starting the TestCase of Flipkart Page
+2026-05-05 00:04:37 INFO  TestFlipkartPage - Search the Product on Flipkart Search Page
+2026-05-05 00:04:42 INFO  TestFlipkartPage - Open the Product on New Flipkart Product Page
+2026-05-05 00:04:47 INFO  TestFlipkartPage - Add the Product on Flipkart Cart Page
+2026-05-05 00:05:22 INFO  TestAmazonPage - Starting the TestCase of Amazon Page
+2026-05-05 00:05:31 INFO  TestAmazonPage - Search the Product on Amazon Search Page
+2026-05-05 00:05:38 INFO  TestAmazonPage - Open the Product on New Amazon Product Page
+2026-05-05 00:05:44 INFO  TestAmazonPage - Add the Product on Amazon Cart Page
+2026-05-05 00:05:47 INFO  TestAmazonPage - Proceed to the Amazon CheckOut Page
+2026-05-05 00:05:47 INFO  TestAmazonPage - Finished the TestCase of Amazon Page
