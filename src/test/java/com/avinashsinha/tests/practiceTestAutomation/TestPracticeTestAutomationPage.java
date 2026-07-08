@@ -123,7 +123,7 @@ public class TestPracticeTestAutomationPage extends BaseTest {
 
         Assert.assertEquals(getDriver().getTitle(),PropertiesReader.readKey("INTENTIONAL_SCREENSHOT"));
 
-        //logger.info("Intentional Failure for Screenshot Verification Test Successful Completed");
+        //LOGGER.info("Intentional Failure for Screenshot Verification Test Successful Completed");
 
     }
 
