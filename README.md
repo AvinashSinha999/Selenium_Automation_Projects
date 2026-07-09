@@ -1,139 +1,103 @@
-# Selenium Automation Projects  
+# 🚀 Selenium Automation Projects
 
-![Java](https://img.shields.io/badge/Java-11%2B-007396?logo=java&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-IDE-000000?logo=intellijidea&logoColor=white)
+> A modular **UI Automation Framework** built using **Java**, **Selenium WebDriver**, **TestNG**, **Maven**, **Page Object Model (POM)**, **AssertJ**, **Allure Reports**, and **Log4j2** for automating multiple web applications.
+
+<p align="center">
+
+![Java](https://img.shields.io/badge/Java-11+-blue?logo=openjdk)
+![Selenium](https://img.shields.io/badge/Selenium-WebDriver-43B02A?logo=selenium&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-Build%20Tool-C71A36?logo=apachemaven&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-Web%20Automation-43B02A?logo=selenium&logoColor=white)
-![TestNG](https://img.shields.io/badge/TestNG-Framework-FF6C37?logo=testng&logoColor=white)
-![AssertJ](https://img.shields.io/badge/AssertJ-Assertions-6DB33F)
-![Allure](https://img.shields.io/badge/Allure-Reports-FF69B4?logo=qameta&logoColor=white)
-![Log4j2](https://img.shields.io/badge/Log4j2-Logging-CC0000?logo=apache&logoColor=white)
-![Apache POI](https://img.shields.io/badge/Apache%20POI-Excel%20Support-2496ED?logo=apache&logoColor=white)
+![TestNG](https://img.shields.io/badge/TestNG-Framework-brightgreen)
+![AssertJ](https://img.shields.io/badge/AssertJ-Assertions-orange)
+![Apache POI](https://img.shields.io/badge/Apache%20POI-Excel%20Support-blue)
+![Allure](https://img.shields.io/badge/Allure-Reports-ff69b4)
+![Log4j2](https://img.shields.io/badge/Log4j2-Logging-yellow)
+
+</p>
 
 ---
 
-## 🗂️ Overview  
+# 🗂️ Overview
 
-This repository contains **Selenium-based UI automation projects** developed using **Java, Selenium WebDriver, TestNG, Maven, and Allure Reports**.
+This repository contains a modular **Selenium UI Automation Framework** designed to automate multiple real-world web applications using **Java**, **Selenium WebDriver**, **TestNG**, and **Maven**.
 
-The framework follows **Page Object Model (POM)** principles and supports:
-- Multiple web applications
-- Retry logic
-- Screenshot capture on failure
-- Centralised configuration
-- Scalable test execution via TestNG XMLs
+The framework follows the **Page Object Model (POM)** design pattern and emphasizes **code reusability**, **maintainability**, and **scalability** through reusable page objects, centralized driver management, retry mechanisms, screenshot capture, externalized configuration, and rich Allure reporting.
+
+It also demonstrates **Data-Driven Testing (DDT)** using **Excel** and **JSON**, making it suitable as a reference for enterprise-style Selenium automation frameworks.
 
 ---
 
-## ⚙️ Tech Stack
+# ✨ Features
 
-- **Java 11+**
-- **IntelliJ IDEA** – IDE for development
-- **Maven** – Build & dependency management
-- **Selenium WebDriver** – Browser automation
-- **TestNG** – Testing framework
-- **Log4j2** – Centralized logging and debugging
-- **Page Object Model (POM)** design pattern
-- **Allure Reports** – Reporting framework
-
----
-
-## 🚀 Features
-
-- **Selenium WebDriver automation** using Java
-- **Page Object Model (POM)** based framework design
-- Supports **multiple applications** within a single framework :
-    - Amazon
-    - Applitools Demo App
-    - Flipkart
-    - Practice Test Automation App
-- **Reusable base classes** for pages and tests
-- **Centralised WebDriver management**
-- **Explicit wait utilities** for stable test execution
-- **Retry mechanism** for failed tests using TestNG RetryAnalyzer
-- **Automatic screenshot capture on test failure**
-- **TestNG listeners** for execution control and reporting
-- **External configuration** using `data.properties`
-- **Structured logging** using Log4j2
-- **Test execution via TestNG XML suites**
-- **Allure Reports integration** for detailed execution reports
+- ✅ Selenium WebDriver Automation
+- ✅ Page Object Model (POM)
+- ✅ Modular Framework Design
+- ✅ Multiple Application Automation
+- ✅ Data-Driven Testing (Excel & JSON)
+- ✅ Centralized WebDriver Management
+- ✅ Explicit Wait Utilities
+- ✅ Retry Mechanism for Failed Tests
+- ✅ Automatic Screenshot Capture
+- ✅ TestNG Listeners
+- ✅ Log4j2 Logging
+- ✅ Allure Reporting
 
 ---
 
-## 🧩 Framework Highlights
+# 🛠️ Tech Stack
 
-### 🧱 Base Classes
-
-- **`CommonToAllPage.java`** – Base class for all Page Objects, providing common web actions, driver access, and shared utilities
-- **`CommonToAllTest.java`** – Base class for all test cases, responsible for test setup, teardown, and environment initialisation
-  
-##
-
-### 🧪 Utilities
-
-- **`DriverManager.java`** – Centralised WebDriver lifecycle management for consistent browser handling
-- **`PropertiesReader.java`** – Reads and manages configuration values from `data.properties`
-- **`WaitHelpers.java`** – Utility class for handling explicit and conditional waits
-
-##
-
-### 🔁 Listeners
-
-- **`RetryAnalyzer.java`** – Automatically retries failed test cases
-- **`RetryListeners.java`** – Automatically retries failed test cases
-- **`ScreenshotListeners.java`** – Captures screenshots automatically on test failures
-  
-## 
-
-### 📚 Application Modules
-
-| Application Module         | Description                                      |
-| -------------------------- | ------------------------------------------------ |
-| **amazon**                 | UI automation for Amazon user flows              |
-| **applitools**             | Tests for Applitools demo application            |
-| **flipkart**               | UI automation for Flipkart user flows            |
-| **practiceTestAutomation** | Login and dashboard automation for practice site |
+| Technology | Usage |
+|------------|-------|
+| Java 11+ | Programming Language |
+| Selenium WebDriver | UI Automation |
+| Maven | Dependency & Build Management |
+| TestNG | Test Framework |
+| AssertJ | Fluent Assertions |
+| Apache POI | Excel Data-Driven Testing |
+| JSON | Test Data Management |
+| Log4j2 | Logging |
+| Allure Reports | Test Reporting |
+| IntelliJ IDEA | Development IDE |
 
 ---
 
-## 🌐 Applications Automated  
+# 🏗️ Project Structure
 
-- **Amazon**
-- **Applitools Demo App**
-- **Flipkart**
-- **Practice Test Automation App**
-
-Each application is automated as an **independent module**, ensuring clear separation and maintainability:
-
-- Dedicated **Page Object** classes
-- Dedicated **Test classes**
-- Separate **TestNG XML suites** for controlled execution
-
-This structure allows tests to be **scalable**, **reusable**, and **easy to extend** as new applications are added.
-
----
-
-## 🏗️ Project Structure  
-
-```bash
+```text
 Selenium_Automation_Projects/
 │
-├── .idea/                                                        # IntelliJ project files
-├── .mvn/                                                         # Maven wrapper files
-├── allure-results/                                               # Allure test results
-├── failure_screenshots/                                          # Screenshots captured on test failures
-├── logs/                                                         # Execution logs
-├── screenshots/                                                  # Additional screenshots
+├── .idea/                                                     # IntelliJ project files
+├── .mvn/                                                      # Maven wrapper files
+├── allure-report/                                             # Generated Allure report
+├── allure-results/                                            # Allure execution results
+├── failure_screenshots/                                       # Screenshots captured on failures
+├── logs/                                                      # Execution logs
+├── screenshots/                                               # Manual screenshots
+│
+├── pom.xml                                                    # Maven dependencies & build configuration
+├── .gitignore
+│
+├── testNG-xmls/                                               # TestNG suite files
+│   ├── testng_AmazonPage.xml
+│   ├── testng_AppliToolsPage.xml
+│   ├── testng_FlipkartPage.xml
+│   ├── testng_PracticeTestAutomationPage.xml
+│   ├── testng_SaucedemoPage.xml
+│   ├── testng_SaucedemoPage_DDT_Excel.xml
+│   ├── testng_SaucedemoPage_DDT_JSON.xml
+│   └── testng_SaucedemoPage_E2E.xml
 │
 ├── src/
-│   ├── main/java/com.avinashsinha/
-│   │   ├── base/                                                 # Base page setup
-│   │   │   └── CommonToAllPage.java
+│   ├── main/
+│   │   ├── java/com.avinashsinha/
 │   │   │
-│   │   ├── driver/                                               # WebDriver management
-│   │   │   └── DriverManager.java
+│   │   ├── base/
+│   │   │   └── BasePage.java                                 # Common page actions
 │   │   │
-│   │   ├── pages/                                                # Page Object classes
+│   │   ├── driver/
+│   │   │   └── DriverManager.java                            # WebDriver management
+│   │   │
+│   │   ├── pages/                                            # Page Object classes
 │   │   │   ├── amazon/
 │   │   │   │   ├── CartPage.java
 │   │   │   │   ├── CheckoutCumLoginPage.java
@@ -141,7 +105,7 @@ Selenium_Automation_Projects/
 │   │   │   │   ├── ProductPage.java
 │   │   │   │   └── SearchPage.java
 │   │   │   │
-│   │   │   ├── applitools/
+│   │   │   ├── appliTools/
 │   │   │   │   ├── DashboardPage.java
 │   │   │   │   └── LoginPage.java
 │   │   │   │
@@ -152,94 +116,163 @@ Selenium_Automation_Projects/
 │   │   │   │   ├── ProductPage.java
 │   │   │   │   └── SearchPage.java
 │   │   │   │
-│   │   │   └── practiceTestAutomation/
-│   │   │       ├── DashboardPage.java
-│   │   │       └── LoginPage.java
+│   │   │   ├── practiceTestAutomation/
+│   │   │   │   ├── DashboardPage.java
+│   │   │   │   └── LoginPage.java
+│   │   │   │
+│   │   │   └── saucedemo/
+│   │   │       ├── BackToLoginPage.java
+│   │   │       ├── BackToProductsPage.java
+│   │   │       ├── CartPage.java
+│   │   │       ├── ConfirmationPage.java
+│   │   │       ├── InformationPage.java
+│   │   │       ├── LoginPage.java
+│   │   │       ├── OverviewPage.java
+│   │   │       └── ProductsPage.java
 │   │   │
-│   │   └── utils/                                                # Utilities
-│   │       ├── PropertiesReader.java
-│   │       └── WaitHelpers.java
+│   │   ├── utils/                                            # Utilities
+│   │   │   ├── DataReader.java
+│   │   │   ├── PropertiesReader.java
+│   │   │   ├── UtilExcel.java
+│   │   │   └── WaitHelpers.java
+│   │   │
+│   │   └── resources/
+│   │       ├── data.properties                               # Framework configuration
+│   │       └── log4j2.xml                                    # Logging configuration
 │   │
-│   ├── main/resources/
-│   │   ├── data.properties                                       # Configuration file
-│   │   └── log4j2.xml                                            # Logging configuration
-│   │
-│   └── test/java/com.avinashsinha/
-│       ├── base/                                                 # Base test setup
-│       │   └── CommonToAllTest.java
+│   └── test/
+│       ├── java/com.avinashsinha/
 │       │
-│       ├── listeners/                                            # TestNG listeners
+│       ├── base/
+│       │   └── BaseTest.java                                 # Common test setup
+│       │
+│       ├── listeners/                                        # TestNG listeners
 │       │   ├── RetryAnalyzer.java
 │       │   ├── RetryListeners.java
 │       │   └── ScreenshotListeners.java
 │       │
-│       └── tests/                                                # Test classes
+│       └── tests/                                            # Test classes
 │           ├── amazon/
 │           │   └── TestAmazonPage.java
 │           │
-│           ├── applitools/
+│           ├── appliTools/
 │           │   └── TestAppliToolsPage.java
 │           │
 │           ├── flipkart/
 │           │   └── TestFlipkartPage.java
 │           │
-│           └── practiceTestAutomation/
-│               └── TestPracticeTestAutomationPage.java
+│           ├── practiceTestAutomation/
+│           │   └── TestPracticeTestAutomationPage.java
+│           │
+│           └── saucedemo/
+│               ├── TestSauceDemo_LoginPage.java
+│               ├── TestSauceDemo_ProductPage.java
+│               ├── TestSauceDemo_CartPage.java
+│               ├── TestSauceDemo_CheckoutInfoPage.java
+│               ├── TestSaucedemoPage_DDT_Excel.java
+│               ├── TestSaucedemoPage_DDT_JSON.java
+│               └── TestSaucedemoPage_E2E.java
 │
-├── testNG-xmls/                                                  # TestNG suite files
-│   ├── testng_AmazonPage.xml
-│   ├── testng_AppliToolsPage.xml
-│   ├── testng_FlipkartPage.xml
-│   └── testng_PracticeTestAutomationPage.xml
-│
-├── pom.xml                                                       # Maven configuration
-├── .gitignore
 └── README.md
 ```
 
 ---
 
-## ▶️ Running Tests
+# 📦 Framework Components
 
-### Run a Specific TestNG Suite
-
-```bash
-mvn clean test -DsuiteXmlFile=testNG-xmls/testng_AmazonPage.xml
-```
-
-#### Commonly Used TestNG Suites
-
-| TestNG File                             | Purpose                                    |
-| --------------------------------------- | ------------------------------------------ |
-| `testng_AmazonPage.xml`                 | Amazon application UI tests                |
-| `testng_AppliToolsPage.xml`             | Applitools demo application tests          |
-| `testng_FlipkartPage.xml`               | Flipkart application UI tests              |
-| `testng_PracticeTestAutomationPage.xml` | Practice Test Automation application tests |
+| Component | Description |
+|------------|-------------|
+| **BasePage** | Common web actions shared across all page objects |
+| **DriverManager** | Centralized WebDriver lifecycle management |
+| **Page Objects** | UI element locators and page interactions |
+| **BaseTest** | Common test setup and teardown |
+| **WaitHelpers** | Explicit wait utilities |
+| **RetryAnalyzer** | Retries failed test cases automatically |
+| **ScreenshotListeners** | Captures screenshots on test failures |
+| **Utilities** | Excel, JSON and configuration readers |
+| **Application Modules** | Independent automation projects for multiple websites |
 
 ---
 
-## 📊 Reporting
+# 🌐 Applications Automated
 
-### Generate Allure Report
+| Application | Automation Coverage |
+|-------------|---------------------|
+| 🛒 Amazon | Product Search, Product Details, Cart & Checkout Flow |
+| 🛍️ Flipkart | Product Search, Product Details, Cart & Checkout Flow |
+| 👁️ Applitools Demo | Login & Dashboard Validation |
+| 🧪 Practice Test Automation | Login & Dashboard Validation |
+| 🛒 SauceDemo | Login, Product, Cart, Checkout, Data-Driven Testing & End-to-End Workflow |
+
+---
+
+# ✅ Test Coverage
+
+| Module | Test Scenario |
+|----------|---------------|
+| Amazon | Search, Product Selection, Cart Flow |
+| Flipkart | Search, Product Selection, Cart Flow |
+| Applitools | Login Validation |
+| Practice Test Automation | Login & Dashboard |
+| SauceDemo | Login |
+| SauceDemo | Products |
+| SauceDemo | Cart |
+| SauceDemo | Checkout |
+| SauceDemo | Data-Driven Testing (Excel) |
+| SauceDemo | Data-Driven Testing (JSON) |
+| SauceDemo | End-to-End Purchase Flow |
+
+---
+
+# ▶️ Running Tests
+
+Execute any TestNG suite using Maven.
+
+### Example
+
+```bash
+mvn clean test -DsuiteXmlFile=testNG-xmls/testng_SaucedemoPage.xml
+```
+
+### Available Test Suites
+
+| Suite | XML File |
+|--------|----------|
+| Amazon | `testng_AmazonPage.xml` |
+| Applitools | `testng_AppliToolsPage.xml` |
+| Flipkart | `testng_FlipkartPage.xml` |
+| Practice Test Automation | `testng_PracticeTestAutomationPage.xml` |
+| SauceDemo | `testng_SaucedemoPage.xml` |
+| SauceDemo DDT (Excel) | `testng_SaucedemoPage_DDT_Excel.xml` |
+| SauceDemo DDT (JSON) | `testng_SaucedemoPage_DDT_JSON.xml` |
+| SauceDemo E2E | `testng_SaucedemoPage_E2E.xml` |
+
+---
+
+# 📊 Allure Reports
+
+Generate the report using:
 
 ```bash
 allure serve allure-results
 ```
 
-This opens a **beautiful interactive report** in your browser, showing execution summary, test logs, and screenshots for failed tests.
+<p align="center">
+<img width="1100" src="https://github.com/user-attachments/assets/a21482fe-9873-48b5-a922-51b3d9516c90" alt="Allure Report">
+</p>
 
-Example Allure dashboard view:
-
-<img width="1920" height="1114" alt="image" src="https://github.com/user-attachments/assets/a21482fe-9873-48b5-a922-51b3d9516c90" />
-
----
-
-## 📌 Author
-👤 Avinash Sinha
+The command launches an interactive Allure dashboard in your default browser.
 
 ---
 
-🧠 This repository is designed for **advanced Selenium UI automation learning and practice**, focusing on **real-world framework design**, **scalability**, **reusability**, and **maintainability**.
-Future **Selenium + Java automation projects** will be continuously added to this repository.
+# 👨‍💻 Author
+
+**Avinash Sinha**
+
+If you found this repository helpful, consider giving it a ⭐ on GitHub.
 
 ---
+
+# 📄 License
+
+This project is intended for **educational** and **learning purposes**.
