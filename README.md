@@ -1,6 +1,6 @@
 # 🚀 Selenium Automation Projects
 
-> A modular **UI Automation Framework** built using **Java**, **Selenium WebDriver**, **TestNG**, **Maven**, **Page Object Model (POM)**, **AssertJ**, **Allure Reports**, and **Log4j2** for automating multiple web applications.
+> A modular **UI Automation Framework** built using **Java**, **Selenium WebDriver**, **TestNG**, **Maven**, **Page Object Model (POM)**, **AssertJ**, **Apache POI**, **Log4j2**, and **Allure Reports** to automate multiple real-world web applications.
 
 <p align="center">
 
@@ -19,19 +19,19 @@
 
 # 🗂️ Overview
 
-This repository contains a modular **Selenium UI Automation Framework** designed to automate multiple real-world web applications using **Java**, **Selenium WebDriver**, **TestNG**, and **Maven**.
+This repository contains a modular **Selenium UI Automation Framework** developed to automate multiple real-world web applications using **Java**, **Selenium WebDriver**, **TestNG**, and **Maven**.
 
-The framework follows the **Page Object Model (POM)** design pattern and emphasizes **code reusability**, **maintainability**, and **scalability** through reusable page objects, centralized driver management, retry mechanisms, screenshot capture, externalized configuration, and rich Allure reporting.
+Designed around the **Page Object Model (POM)** architecture, the framework demonstrates industry-standard UI automation practices including **reusable page objects**, **centralized WebDriver management**, **explicit wait utilities**, **retry mechanisms**, **automatic screenshot capture**, **externalized configuration**, and **interactive Allure reporting**.
 
-It also demonstrates **Data-Driven Testing (DDT)** using **Excel** and **JSON**, making it suitable as a reference for enterprise-style Selenium automation frameworks.
+The project also showcases **Data-Driven Testing (DDT)** using **Excel** and **JSON**, making it a practical reference for building **scalable**, **maintainable**, and **enterprise-ready Selenium automation frameworks**.
 
 ---
 
-# ✨ Features
+# ✨ Key Features
 
 - ✅ Selenium WebDriver Automation
 - ✅ Page Object Model (POM)
-- ✅ Modular Framework Design
+- ✅ Modular Framework Architecture
 - ✅ Multiple Application Automation
 - ✅ Data-Driven Testing (Excel & JSON)
 - ✅ Centralized WebDriver Management
@@ -40,7 +40,7 @@ It also demonstrates **Data-Driven Testing (DDT)** using **Excel** and **JSON**,
 - ✅ Automatic Screenshot Capture
 - ✅ TestNG Listeners
 - ✅ Log4j2 Logging
-- ✅ Allure Reporting
+- ✅ Rich Allure Reporting
 
 ---
 
@@ -99,36 +99,10 @@ Selenium_Automation_Projects/
 │   │   │
 │   │   ├── pages/                                            # Page Object classes
 │   │   │   ├── amazon/
-│   │   │   │   ├── CartPage.java
-│   │   │   │   ├── CheckoutCumLoginPage.java
-│   │   │   │   ├── HomePage.java
-│   │   │   │   ├── ProductPage.java
-│   │   │   │   └── SearchPage.java
-│   │   │   │
 │   │   │   ├── appliTools/
-│   │   │   │   ├── DashboardPage.java
-│   │   │   │   └── LoginPage.java
-│   │   │   │
 │   │   │   ├── flipkart/
-│   │   │   │   ├── CartPage.java
-│   │   │   │   ├── CheckoutCumLoginPage.java
-│   │   │   │   ├── HomePage.java
-│   │   │   │   ├── ProductPage.java
-│   │   │   │   └── SearchPage.java
-│   │   │   │
 │   │   │   ├── practiceTestAutomation/
-│   │   │   │   ├── DashboardPage.java
-│   │   │   │   └── LoginPage.java
-│   │   │   │
 │   │   │   └── saucedemo/
-│   │   │       ├── BackToLoginPage.java
-│   │   │       ├── BackToProductsPage.java
-│   │   │       ├── CartPage.java
-│   │   │       ├── ConfirmationPage.java
-│   │   │       ├── InformationPage.java
-│   │   │       ├── LoginPage.java
-│   │   │       ├── OverviewPage.java
-│   │   │       └── ProductsPage.java
 │   │   │
 │   │   ├── utils/                                            # Utilities
 │   │   │   ├── DataReader.java
@@ -153,25 +127,10 @@ Selenium_Automation_Projects/
 │       │
 │       └── tests/                                            # Test classes
 │           ├── amazon/
-│           │   └── TestAmazonPage.java
-│           │
 │           ├── appliTools/
-│           │   └── TestAppliToolsPage.java
-│           │
 │           ├── flipkart/
-│           │   └── TestFlipkartPage.java
-│           │
 │           ├── practiceTestAutomation/
-│           │   └── TestPracticeTestAutomationPage.java
-│           │
 │           └── saucedemo/
-│               ├── TestSauceDemo_LoginPage.java
-│               ├── TestSauceDemo_ProductPage.java
-│               ├── TestSauceDemo_CartPage.java
-│               ├── TestSauceDemo_CheckoutInfoPage.java
-│               ├── TestSaucedemoPage_DDT_Excel.java
-│               ├── TestSaucedemoPage_DDT_JSON.java
-│               └── TestSaucedemoPage_E2E.java
 │
 └── README.md
 ```
@@ -182,42 +141,42 @@ Selenium_Automation_Projects/
 
 | Component | Description |
 |------------|-------------|
-| **BasePage** | Common web actions shared across all page objects |
-| **DriverManager** | Centralized WebDriver lifecycle management |
-| **Page Objects** | UI element locators and page interactions |
-| **BaseTest** | Common test setup and teardown |
-| **WaitHelpers** | Explicit wait utilities |
-| **RetryAnalyzer** | Retries failed test cases automatically |
-| **ScreenshotListeners** | Captures screenshots on test failures |
-| **Utilities** | Excel, JSON and configuration readers |
-| **Application Modules** | Independent automation projects for multiple websites |
+| **BasePage** | Provides reusable Selenium actions shared across all page objects |
+| **DriverManager** | Manages the complete WebDriver lifecycle |
+| **Page Objects** | Encapsulates UI locators and page interactions |
+| **BaseTest** | Provides common test initialization and teardown |
+| **WaitHelpers** | Implements reusable explicit wait utilities |
+| **RetryAnalyzer** | Automatically retries failed test cases |
+| **ScreenshotListeners** | Captures screenshots on failed test execution |
+| **Utilities** | Supports Excel, JSON, configuration, and helper methods |
+| **Application Modules** | Independent automation modules for multiple web applications |
 
 ---
 
-# 🌐 Applications Automated
+# 🌐 Application Modules
 
 | Application | Automation Coverage |
 |-------------|---------------------|
-| 🛒 Amazon | Product Search, Product Details, Cart & Checkout Flow |
-| 🛍️ Flipkart | Product Search, Product Details, Cart & Checkout Flow |
-| 👁️ Applitools Demo | Login & Dashboard Validation |
-| 🧪 Practice Test Automation | Login & Dashboard Validation |
-| 🛒 SauceDemo | Login, Product, Cart, Checkout, Data-Driven Testing & End-to-End Workflow |
+| 🛒 **Amazon** | Product Search, Product Details, Cart & Checkout Flow |
+| 🛍️ **Flipkart** | Product Search, Product Details, Cart & Checkout Flow |
+| 👁️ **Applitools Demo** | Login & Dashboard Validation |
+| 🧪 **Practice Test Automation** | Login & Dashboard Validation |
+| 🛒 **SauceDemo** | Login, Products, Cart, Checkout, Data-Driven Testing & End-to-End Purchase Workflow |
 
 ---
 
-# ✅ Test Coverage
+# ✅ Automation Coverage
 
 | Module | Test Scenario |
 |----------|---------------|
-| Amazon | Search, Product Selection, Cart Flow |
-| Flipkart | Search, Product Selection, Cart Flow |
+| Amazon | Product Search & Cart Flow |
+| Flipkart | Product Search & Cart Flow |
 | Applitools | Login Validation |
-| Practice Test Automation | Login & Dashboard |
+| Practice Test Automation | Login & Dashboard Validation |
 | SauceDemo | Login |
-| SauceDemo | Products |
-| SauceDemo | Cart |
-| SauceDemo | Checkout |
+| SauceDemo | Product Catalogue |
+| SauceDemo | Cart Management |
+| SauceDemo | Checkout Workflow |
 | SauceDemo | Data-Driven Testing (Excel) |
 | SauceDemo | Data-Driven Testing (JSON) |
 | SauceDemo | End-to-End Purchase Flow |
@@ -251,7 +210,7 @@ mvn clean test -DsuiteXmlFile=testNG-xmls/testng_SaucedemoPage.xml
 
 # 📊 Allure Reports
 
-Generate the report using:
+Generate and launch the Allure report using:
 
 ```bash
 allure serve allure-results
@@ -261,7 +220,23 @@ allure serve allure-results
 <img width="1100" src="https://github.com/user-attachments/assets/a21482fe-9873-48b5-a922-51b3d9516c90" alt="Allure Report">
 </p>
 
-The command launches an interactive Allure dashboard in your default browser.
+The command generates and opens an interactive **Allure dashboard**, providing execution summaries, detailed logs, screenshots, and test statistics.
+
+---
+
+# ⭐ Repository Highlights
+
+- ✔ Modular Selenium UI Automation Framework
+- ✔ Enterprise-Style Project Structure
+- ✔ Page Object Model (POM) Architecture
+- ✔ Multiple Real-World Application Automation
+- ✔ Data-Driven Testing (Excel & JSON)
+- ✔ Centralized WebDriver Management
+- ✔ Retry Mechanism & Screenshot Capture
+- ✔ Explicit Wait Utilities
+- ✔ TestNG Suite Execution
+- ✔ Log4j2 Logging
+- ✔ Rich Allure Reporting
 
 ---
 
@@ -269,10 +244,10 @@ The command launches an interactive Allure dashboard in your default browser.
 
 **Avinash Sinha**
 
-If you found this repository helpful, consider giving it a ⭐ on GitHub.
+If you found this repository useful, consider giving it a ⭐.
 
 ---
 
 # 📄 License
 
-This project is intended for **educational** and **learning purposes**.
+This repository is intended for **educational** and **learning purposes**.
